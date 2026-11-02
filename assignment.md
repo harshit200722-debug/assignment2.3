@@ -1,11 +1,12 @@
-name=Assignment-1.1.md
-Assignment 1.1 — How a Website Works[cite: 1]
-Task: Explain in a single paragraph how a website opens on the screen after typing a URL.[cite: 1]
+name=Assignment-2.3.md
+Assignment 2.3 — Div, Attributes & Clean Structure[cite: 8]
+Task: Convert the previous introduction page into clean and structured HTML.[cite: 8]
 What to do:
 
-1. Understand the basic roles of browser, client, server, and database.[cite: 1]
-2. Write the meanings of HTTP and HTTPS.[cite: 1]
-3. Explain the request-response cycle.[cite: 1]
-4. Write the differences between a static and a dynamic website.[cite: 1]
-5. Open Chrome DevTools and inspect requests in the Network tab of any website.[cite: 1]
-Submission: An explanatory paragraph and a screenshot of the Network tab.[cite: 1]
+1. Divide the page into Header, About, Education, Skills, and Contact sections.[cite: 8]
+2. Use `div` for containers.[cite: 8]
+3. Give elements unique `id` and reusable `class` attributes.[cite: 8]
+4. Add a `data-*` custom attribute to any element.[cite: 8]
+5. Update a text element and add new content.[cite: 8]
+6. Organize the HTML code with proper indentation and meaningful names.[cite: 8]
+Submission: The updated HTML file and a screenshot showing the page structure.[cite: 8]
