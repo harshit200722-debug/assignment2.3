@@ -1,15 +1,67 @@
-Part 1: Explanatory Paragraph
-When you type a URL into your web browser (the client), it triggers a request-response cycle by sending an HTTP (Hypertext Transfer Protocol) or securely encrypted HTTPS request across the internet to the server where the website lives. For a static website, the server simply responds by sending pre-written HTML, CSS, and JavaScript files directly back to the client. However, if it is a dynamic website, the server first communicates with a database to retrieve specific, up-to-date data (like user profiles or live feeds) and builds the webpage on the fly before sending the final code back. Once the browser receives this response, it translates the code into the visual website that opens on your screen.
+Part 1: The Updated HTML Code
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structured Personal Introduction</title>
+</head>
+<body>
 
+    <!-- Header Section with a custom data-* attribute -->
+    <div id="header-section" class="section-container" data-role="hero-banner">
+        <h1 class="main-title">Your Full Name</h1>
+        <h4 class="subtitle">Aspiring Web Developer | <span class="highlight-text">Creative Problem Solver</span></h4>
+        <hr>
+    </div>
+
+    <!-- About Me Section -->
+    <div id="about-section" class="section-container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-text">Hello! I am a dedicated student embarking on an exciting journey into <strong>web development</strong>. I have recently updated this webpage to use clean, structured HTML with proper attributes to better organize my content.</p>
+        <hr>
+    </div>
+
+    <!-- Education Section -->
+    <div id="education-section" class="section-container">
+        <h2 class="section-title">Education</h2>
+        <h3 class="degree-title">Bachelor of Science in Computer Science</h3>
+        <h5 class="school-name">University of Technology | 2023 - Present</h5>
+        <p class="section-text">Focusing on software engineering principles, <i>data structures</i>, and modern web technologies.</p>
+        <hr>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills-section" class="section-container">
+        <h2 class="section-title">Technical & Soft Skills</h2>
+        <p class="section-text">
+            <strong>Frontend Basics:</strong> HTML5, CSS3<br>
+            <strong>Tools & Environment:</strong> VS Code, Git, GitHub, Terminal<br>
+            <strong>Soft Skills:</strong> <em>Time Management</em>, Team Collaboration
+        </p>
+        <hr>
+    </div>
+
+    <!-- Contact Section (New Content) -->
+    <div id="contact-section" class="section-container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-text">Feel free to reach out to me for collaboration or questions:</p>
+        <p class="contact-info"><strong>Email:</strong> my.email@example.com</p>
+        <p class="contact-info"><strong>GitHub:</strong> github.com/yourusername</p>
+    </div>
+
+</body>
+</html>
 Part 2: How to get your Screenshot
-To fulfill the second part of your assignment, you'll need to take a screenshot of the Network tab on your own computer. Here is exactly how to do it:
+To prove that you have successfully structured the page using containers and attributes, the best method is to show the browser's developer tools.
 
-Open Google Chrome and go to any website (e.g., wikipedia.org).
+Open your updated index.html page in your web browser using Live Server.
 
-Right-click anywhere on the page and select Inspect (or press Ctrl + Shift + I on Windows / Cmd + Option + I on Mac).
+Right-click anywhere on the webpage and select Inspect (or press Ctrl + Shift + I / Cmd + Option + I).
 
-In the panel that opens, click on the Network tab at the top. (If you don't see it, click the >> arrows to reveal hidden tabs).
+Make sure you are on the Elements tab in the developer tools panel.
 
-With the Network tab open, refresh the page (F5 or Ctrl + R). You will see a waterfall of files (requests) loading in the panel.
+Click the small arrows next to the <body> tag to expand it. You will see your nicely stacked <div> containers showing their id, class, and data-role attributes.
 
-Take a screenshot of this entire window showing the list of network requests and save it to submit with your paragraph.
+📸 Take a screenshot of the browser window that clearly shows this "Elements" panel displaying your structured HTML code.
